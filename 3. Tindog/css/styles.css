@@ -1,0 +1,148 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/* -------title--------- */
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.container{
+    padding: 3% 6% 15%;
+}
+.navbar{
+    padding-bottom: 4rem;
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.title-img{
+    margin-top: 5%;
+    width: 20rem;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* -----featuress--------- */
+
+#features{
+    padding: 5% 5%;
+    background-color: white;
+    position: relative;
+}
+.coln{
+    text-align: center;
+    padding: 7%;
+}
+.icon{
+    color: #ef8172 ;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+h3{
+    margin-top: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+p{
+    color: grey;
+}
+
+/* ---------testimonials-------- */
+
+#testimonials{
+    
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+.carousel-item{
+    padding: 7% 9%;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 2%;
+}
+
+/* ---------pricing------ */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pcol{
+    padding: 3% 2%;
+}
+
+/* -------cta------- */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10% 19%;
+    color: white;
+}
+.ctatxt{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.links{
+    color: black;
+    margin: 1% ;
+}
+.end{
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,146 @@
+@font-face{
+  font-family: roboto;
+  src: url("fonts/roboto/Roboto-Regular.ttf");
+  font-style: normal;
+}
+body{
+  text-align: center;
+  font-family: roboto;
+}
+
+/*----top div---*/
+.top{
+  padding: 20%;
+  margin: initial;
+  border-radius: 0px;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.txt-one{
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.637) ;
+  background-position: center;
+  box-shadow: 3px 3px 15px grey;
+}
+.ta{
+  font-size: 300%;
+  font-weight: 550;
+  margin: 2%;
+  text-shadow: 3px 3px 5px grey;
+  color: #2b2e4a;
+}
+.tb{
+  margin: 3%;
+  font-size: 150%;
+  font-weight: 500;
+  text-shadow: 3px 3px 5px grey;
+}
+@media (max-width: 1028px){
+  .top{
+    height: 55vh;
+    padding: 25%;
+  }
+  .about{
+    height: 55vh;
+    padding: 25%;
+  }
+
+
+}
+
+/*---------mid div------------*/
+
+/*---------about------------*/
+.about{
+  padding: 10%;
+  background-image: url(Capture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.abt{
+  font-size: 300%;
+  font-weight: 550;
+  margin-bottom: 6%;
+  text-shadow: 5px 3px 20px grey;
+  color: #2b2e4a;
+}
+
+.apfp{
+  margin: 0% auto 5% auto;
+  height: 18rem;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 3px 3px 15px grey;
+  padding: 0;
+}
+.txt-two{
+  padding: 2%;
+  background-color: rgba(243, 243, 243, 0.671) ;
+  background-position: center;
+  box-shadow: 3px 3px 15px grey;
+  margin: 3%;
+  font-size: 130%;
+  font-weight: 500;
+}
+
+/*---------skills------------*/
+
+.ms{
+  font-size: 300%;
+  font-weight: 550;
+  margin-bottom: 6%;
+  color: #2b2e4a;
+}
+.dev{
+  width: 50%;
+  margin: 10% auto 10% auto;
+  text-align: left;
+  line-height: 2;
+}
+.devgif{
+  border-radius: 60%;
+  width: 30%;
+  margin-right: 10%;
+  background-color: rgba(143, 143, 143, 0.575);
+  float: left;
+}
+.desgif{
+  border-radius: 60%;
+  width: 30%;
+  margin-left: 10%;
+  background-color: rgba(143, 143, 143, 0.575);
+  float: right;
+}
+
+/*---------contact me------------*/
+
+.contact{
+  background-color: black;
+  padding: 2rem ;
+  line-height: 2;
+}
+.con{
+  font-size: 300%;
+  font-weight: 550;
+  margin-bottom: 4%;
+  color: white;
+}
+.dets{
+  color: white;
+}
+.link{
+  width: 2rem;
+}
+.insta{
+  width: 2rem;
+  margin-left: 0.7%;
+  margin-right: 0.7%;
+}
+.git{
+  width: 2rem;
+}
